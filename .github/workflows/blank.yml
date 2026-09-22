@@ -40,3 +40,9 @@ jobs:
           python-version: '3.13' 
       - name: Run python script
         run: python script.py
+
+      - name: Install pytest
+        run: pip install pytest
+      
+      - name: Run tests
+        run: pytest
