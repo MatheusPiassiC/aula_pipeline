@@ -1,1 +1,2 @@
-print("This is a test script, and it's working.")
+def soma(a, b):
+    return a + b
